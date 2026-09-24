@@ -1,0 +1,179 @@
+{
+    "body": [
+        {
+            "uri_hash": [
+                "05201632d87089fcda34dc75e7021cd05194e1513ff3e4a561ee1ac6bb839e95"
+            ],
+            "email_hash": [
+                "30662f2d490a9063cdbed3e9a3c0211b12cc60533b5b2a94df74c5c340ff5acf"
+            ],
+            "domain_hash": [
+                "98094d8ac24edb4cd7d642d498b69567d7ff20f8d68e279b4b02606587b3725e",
+                "992e6e468e1843225ce171439c1754d8ba732601ea0a42eac52b10e02537d000"
+            ],
+            "content_header": {
+                "content-type": [
+                    "text/plain; charset=\"UTF-8\""
+                ],
+                "content-transfer-encoding": [
+                    "8bit"
+                ]
+            },
+            "content_type": "text/plain",
+            "hash": "3f36e8f5ac496f24541300faebe3b0acbca8c617cd08139fbad39c054996c2d7"
+        }
+    ],
+    "header": {
+        "subject": "\u3010SPICE\u3011\u304a\u554f\u3044\u5408\u308f\u305b\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059",
+        "from": "wordpress@testsite01.nabeplog.com",
+        "to": [
+            "robert.b.blevins@icloud.com"
+        ],
+        "date": "2026-08-17T13:35:13+00:00",
+        "received": [
+            {
+                "src": "from p00-icloudmta-smtpin-us-east-2d-60-percent-26 by p61-mailgateway-smtp-65bdbb68f5-kkcg6 (mailgateway 2632b98) with smtp id 45b24561-af6c-493b-8042-bf7c4a4faac8 for <robert.b.blevins@icloud.com>; mon, 17 aug 2026 13:35:19 gmt",
+                "with": "smtp id 45b24561-af6c-493b-8042-bf7c4a4faac8",
+                "for": [
+                    "robert.b.blevins@icloud.com"
+                ],
+                "date": "2026-08-17T13:35:19+00:00"
+            },
+            {
+                "src": "from spd161.phy.lolipop.jp (spd161.phy.lolipop.jp [118.27.125.30]) by p00-icloudmta-smtpin-us-east-2d-60-percent-26 (postfix) with esmtps id 7f3e5c005be for <robert.b.blevins@icloud.com>; mon, 17 aug 2026 13:35:16 +0000 (utc)",
+                "from": [
+                    "spd161.phy.lolipop.jp",
+                    "118.27.125.30"
+                ],
+                "with": "esmtps id 7f3e5c005be",
+                "for": [
+                    "robert.b.blevins@icloud.com"
+                ],
+                "date": "2026-08-17T13:35:16+00:00"
+            },
+            {
+                "src": "by spd161.phy.lolipop.jp (postfix, from userid 995) id 81ecc3c21c635; mon, 17 aug 2026 22:35:13 +0900 (jst)",
+                "by": [
+                    "spd161.phy.lolipop.jp"
+                ],
+                "date": "2026-08-17T22:35:13+09:00"
+            }
+        ],
+        "received_domain": [
+            "spd161.phy.lolipop.jp"
+        ],
+        "received_ip": [
+            "118.27.125.30"
+        ],
+        "received_foremail": [
+            "robert.b.blevins@icloud.com"
+        ],
+        "header": {
+            "message-id": [
+                "<6DoO3mhDzQ6MNSFyF9bEA5KyuTs6de5G08A5Kvy3dM@www.spice-mode.com>"
+            ],
+            "x-arc-info": [
+                "policy=fail; arc=none; r1=-20; r2=0"
+            ],
+            "x-mailer": [
+                "PHPMailer 6.7 (https://github.com/PHPMailer/PHPMailer)"
+            ],
+            "received-spf": [
+                "none (spf.icloud.com: wordpress@testsite01.nabeplog.com does not designate permitted sender hosts) receiver=spf.icloud.com; client-ip=118.27.125.30; helo=spd161.phy.lolipop.jp; envelope-from=wordpress@testsite01.nabeplog.com"
+            ],
+            "x-apple-action": [
+                "JUNK/Junk"
+            ],
+            "return-path": [
+                "<wordpress@testsite01.nabeplog.com>"
+            ],
+            "x-suspected-spam": [
+                "true"
+            ],
+            "from": [
+                "\u3010SPICE\u3011 <wordpress@testsite01.nabeplog.com>"
+            ],
+            "x-dmarc-policy": [
+                "none"
+            ],
+            "subject": [
+                "\u3010SPICE\u3011\u304a\u554f\u3044\u5408\u308f\u305b\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059"
+            ],
+            "x-proofpoint-guid": [
+                "vhMUD-DPVMBMgjij3qwoxbcHxgUfeKB-"
+            ],
+            "mime-version": [
+                "1.0"
+            ],
+            "content-type": [
+                "text/plain; charset=\"UTF-8\""
+            ],
+            "x-apple-uuid": [
+                "45b24561-af6c-493b-8042-bf7c4a4faac8"
+            ],
+            "x-dmarc-info": [
+                "pass=none; dmarc-policy=(nopolicy); s=u0; d=u0; pdomain=nabeplog.com"
+            ],
+            "reply-to": [
+                "kan@1755.net"
+            ],
+            "to": [
+                "robert.b.blevins@icloud.com"
+            ],
+            "date": [
+                "2026-08-17T13:35:13+00:00"
+            ],
+            "x-spam-flag": [
+                "yes"
+            ],
+            "x-proofpoint-orig-guid": [
+                "vhMUD-DPVMBMgjij3qwoxbcHxgUfeKB-"
+            ],
+            "content-transfer-encoding": [
+                "8bit"
+            ],
+            "x-authority-info": [
+                "v=2.4 cv=JJI2csKb c=1 sm=1 tr=0 ts=6a830e16 cx=c_apl:c_pps a=hVGheiXfh3wYD5WpBpMizQ==:117 a=hVGheiXfh3wYD5WpBpMizQ==:17 a=IkcTkHD0fZMA:10 a=96GJKQGblXAA:10 a=Sv0fKeRqtYgA:10 a=5KLPUuaC_9wA:10 a=M51BFTxLslgA:10 a=gU_PZ1jvAAAA:20 a=v3ZZPjhaAAAA:8 a=P5CrSV0GcInnYIpAsuAA:9 a=lqcHg5cX4UMA:10 a=3ZKOabzyN94A:10 a=QEXdDO2ut3YA:10 a=zgiPjhLxNE0A:10 a=ZT_8zCgGubuJgGonBfBE:22"
+            ],
+            "x-icl-info": [
+                "GAtbQ1YCBFBFTVJFSgQEUFUKE0obXE5CBhAWSkkBDkxHTkhGSgUYUUVZAxNFR1kQEQkUEgtDdhYQChIEEURTUkRXCBYaVUYOGh5IFBddFgQRRBISC0RFCwEcVkZWXlcAEAkKGB8eVQ0YWRQURUJZABALElkaHlQOEA8PGQtwXwEZFhMTVlNZD1URAxsXDUUSEUhQRlZAXhtbFQkbEUBZElsTFlcIRERfBgkCRk4BGBIdAEgbF1xfEhoJSB0IEFIGSAwIHBZfQQxVFA8TRQwAJho2VRoQdEwzQzQoJD5JcFsXPCdCM0lDNgZPAhJNdwZaNEwtAQEDUi81DhEAVkNGCxYcSxoXVFNMFhYLSQ=="
+            ],
+            "x-icl-score": [
+                "4.22204422422"
+            ],
+            "received": [
+                "from p00-icloudmta-smtpin-us-east-2d-60-percent-26 by p61-mailgateway-smtp-65bdbb68f5-kkcg6 (mailgateway 2632B98)\twith SMTP id 45b24561-af6c-493b-8042-bf7c4a4faac8\tfor <robert.b.blevins@icloud.com>; Mon, 17 Aug 2026 13:35:19 GMT",
+                "from spd161.phy.lolipop.jp (spd161.phy.lolipop.jp [118.27.125.30])\tby p00-icloudmta-smtpin-us-east-2d-60-percent-26 (Postfix) with ESMTPS id 7F3E5C005BE\tfor <robert.b.blevins@icloud.com>; Mon, 17 Aug 2026 13:35:16 +0000 (UTC)",
+                "by spd161.phy.lolipop.jp (Postfix, from userid 995)\tid 81ECC3C21C635; Mon, 17 Aug 2026 22:35:13 +0900 (JST)"
+            ],
+            "x-jnj": [
+                "AAAAAAAB592Ho2hqfxFPkc2k09Bs2qHs9hBCmjfU3QRKNtYv4Ayr4KcjXS/vum+2xJAqyRFbEd8zpjYSBtxPsI9yKpWsdLNG17uBHrfiPm1H48IVOUHrS0TCZJ+AegKl/CYJt/f+nN+eY4obNp1nJOvh1eS1IwWdQLZI7vexH/UdnnuXbCd8gucgmpacuT+X35XdDE34TWrDjweXGZiucWp1fRz20xSx3w4grZbpgARfmREwsYqGRli23iQWkzPCsO2xOwW93Pm5Sk5piJhpr/DjumOxqYRWjv5bDoXtTqLeZMbQ2TyFyjZarC67ctbi/l0eblo6ZAezpHqqIWYgGuoW+s8N8UyRLBHMVT5c4rqza0cdd1JcXLgDJ/w4vxknd+iVuhcxiahIqp2puIdCe3sBtid5yFvWtbbLkfTFWh1o9aGQSFEO+WAKsdqNiNLQ4Ia3lS54uw24O7NKPdT1hJNRw/B2XYMHuXGRODIERyyJvR6UC6axv49PQlfsYQncR9J12JFD5tDZj1pOuZXz1u/uqWJCYsy/vgNdwTpGTY46xf9bPzm46v7tpxosJr2eGaGYgsR0VFe35IPEdtYQ3l8kchaDGvv+tHaITtuxUJH5XXlwMUJ3NI4iGKDeTQp8VEmflw/MZRd3JG51HspkqdCUPM9Eu1TnnHmUybtU84XyZLh6vEr75S0u4qiOD0ECE01GP4ZpYlPDUyOpWjhQj0YXnPPB9YYkQrTDIzvtfro1xQDfnj0f5qLYTmkjSUSpY/IAyIrAmPB1HPkKyr8fFnHmDYpPLcaqj0kNb60ktuzzNRbyQ2uxfg+XNGAMpiBMzSW4ogVZKiEHAbCSd5+Hb7OXxH68CmYxxIMDNDEslJXey3HadqJZW4g06lP3sFCzcuougCY3dIrDzUMslglNbS9QtOmHgJP/AltVWsMeqdrlOU2EJp7W00/JPPYwCEmpzG9FQTogC0nfXdmE28E1pGvXHRy8hYt owDwu9Qan6/5XIRRN"
+            ],
+            "x-mantsh": [
+                "1TFkXBxgeHBEKWUQXZxlQRXllHmtjQlwRCllNF2BfREERCl9ZFwccEhEKX00Xbkt YQREKWUkXGnEaEBp3BgceEnEcEBgadwYHGBoGGhEKWV4XaG55EQpDThdcQmd/bgduenxnaGdNQ ENAGVtdRVJISWJSTX9MT2FoBxEKWFwXGQQaBB8SBRsaGgQdGwQbHBoEExsQGx4aHxoRCl5ZF0J fZmFSEQpNXBcHGxIdEQpMWhdoG25dTW8RCkVZF2hraxEKTF8XegUFBQUFBQUFBR0RCkxGF2NNa xEKQ1oXGxsSBBgdBBsYHwQZGhEKQl4XGxEKQkUXbAFEYBJpbR9DTm8RCkJOF2tgU197XBIZRmh aEQpCTBdgYmIFbgFvTnMdcxEKQmwXa3lifhJ9fUd8S1MRCkJAF2cYe0IFE2R5UnhmEQpCWBdvZ WtBfGNzfGUaAREKTV4XBxsRClpYFxgRCnBnF2VpZHlBeR5LZ1pBEAcZGhEKcGgXZx5nW31rSWk BQloQBxkaEQpwaBdnWR1QbFlSfUtORhAHGRoRCnBoF2xhWF9yTmtrXkkdEAcZGhEKcGgXa1J6R m5mcFxmRngQBxkaEQpwaBdofhhLWGB+GmFjSBAHGRoRCnBoF3odYkxSSFNwYX9MEAcZGhEKcGg XZkJuTB9laxtAY2EQBxkaEQpwaBdrGHgbZ0tPWwFbXRAHHhIRCnB/F2ZQQBIFYxNDZl5/EAccG REKcF8XekMBYXJ+Ymxdb0sQBxkaEQpwfRdgcE1Hc25/e35CUhAHGRoRCnBsF21YEk1cYHhTeR5 iEAcZGhEKbX4XBxsRClhNF0sR"
+            ],
+            "authentication-results": [
+                "bimi.icloud.com; bimi=skipped reason=\"insufficient dmarc\"",
+                "arc.icloud.com; arc=none",
+                "dmarc.icloud.com; dmarc=none header.from=testsite01.nabeplog.com",
+                "dkim-verifier.icloud.com; dkim=none",
+                "spf.icloud.com; spf=none (spf.icloud.com: wordpress@testsite01.nabeplog.com does not designate permitted sender hosts) smtp.mailfrom=wordpress@testsite01.nabeplog.com"
+            ],
+            "x-apple-movetofolder": [
+                "Junk "
+            ],
+            "x-php-originating-script": [
+                "1777682:PHPMailer.php"
+            ],
+            "x-icl-repid": [
+                "01a00fee-ff6c-7f7c-a346-f84a870ca3f6"
+            ],
+            "original-recipient": [
+                "rfc822;robert.b.blevins@icloud.com"
+            ],
+            "x-proofpoint-spam-details-enc": [
+                "AW1haW4tMjYwODE3MDEwNCBTYWx0ZWRfX3fEoZQsKfJ++ E1/ssAfADvzDZpFUke/BGQB03JoyP5Ti1nSo1ExAnMYJ5uV487E0cuv3Jiyl3C6FPmn/lygqHTd K+LLHTcqhUsY6dVjZnqUOQSDNnkNy7ERbTXvY1NMUR2t/T6GQN4uF20hhEf+8I0At6bTHCpiHag IG5gu91lUfrijvbU/ITXxpVEHjkl8CxbcGab+ZVjrFPH8HsZQ/04d51qIzlRPsbT1rmT1L8JP2w 7Rt2omuEG/ZynH6lXpdbAsQ/d6iIeIS89sgAIEDPITLPAmt/vcCqwrEnh+YEZAwOeuz2uxv+bHz Sw5LJeMBBxP9Z411odYVuyFR6NKofnoZ6pBp9CWqkEg1SNINt5bWc7Ud8iL8SZjilTu4e4TQc0b HMnIfulwU2MHiOhIZ2GnGaLaPWWHePxwUU479/mG9e5fjkDWmoQ="
+            ]
+        }
+    }
+}
